@@ -1,0 +1,65 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <div class="row gx-5">
+      <!-- Latest blog post in full (Left column) -->
+      <div class="lg:col-8 mb-10">
+        {{ $latestPost := index .Site.RegularPages.ByDate.Reverse 0 }}
+        {{ with $latestPost }}
+          <article>
+            <h1 class="h2 mb-4">
+              {{ .Title }}
+            </h1>
+            <ul class="mb-4">
+              <li class="mr-4 inline-block">
+                <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+                  <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+                </a>
+              </li>
+              {{ $categories:= .Params.categories }}
+              {{ if $categories }}
+              <li class="mr-4 inline-block">
+                <i class="fa-regular fa-folder mr-2"></i>
+                {{ range $i,$p:= $categories }}
+                <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+                  class="">{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+                  {{ "," }}
+                  {{ end }}
+                </a>
+                {{ end }}
+              </li>
+              {{ end }}
+              <li class="mr-4 inline-block">
+                <i class="fa-regular fa-clock mr-2"></i>
+                {{ time.Format ":date_long" .PublishDate }}
+              </li>
+            </ul>
+            <div class="content mb-10">
+              {{ .Content }}
+            </div>
+          </article>
+          {{ else }}
+          <p>No blog posts available.</p>
+        {{ end }}
+      </div>
+      <!-- Sidebar (Right column) -->
+      <div class="lg:col-4">
+        <!-- Next 3 posts in cards -->
+        <div class="row mb-10">
+          {{ $posts := after 1 .Site.RegularPages.ByDate.Reverse }}
+          {{ range first 3 $posts }}
+            <div class="lg:col-12 mb-14">
+              {{ partial "components/blog-card" . }}
+            </div>
+            {{ else }}
+            <p>No more posts available.</p>
+          {{ end }}
+        </div>
+        <!-- Categories and tags -->
+        {{ $widget := site.Params.widgets.sidebar }}
+        {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
