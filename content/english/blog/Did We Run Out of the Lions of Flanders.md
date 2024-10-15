@@ -19,7 +19,7 @@ Doesn’t get anymore badass than this.
 
 That was that and we haven’t seen another Lion of Flanders since. At least, the Flemish don’t think anyone deserves the title.
 
-Six years ago I wrote a [post](/blog/the-lion-of-flanders/) where I asked why the Flemish keep the Lion of Flanders crown in a safe these days.
+Six years ago I wrote a post where I asked [why the Flemish keep the Lion of Flanders crown in a safe these days](/blog/the-lion-of-flanders/).
 
 Just like with “[The Next Eddy Merckx](/blog/tadej-pogacar-the-next-eddy-merckx/)” moniker, it’s not about the number of wins.
 
@@ -75,4 +75,4 @@ I’d like to acknowledge valuable insights my Flemish reader, Jan De Smet, gave
 
 ## Post Postscript
 
-If I got any of this Flemish stuff wrong, feel free to a) refer me to the Velominati Police and b) send me an educational email. I’m all ears.
+If I got any of this Flemish stuff wrong, feel free to a) refer me to the Velominati Police and b) send me an educational [email](/contact/). I’m all ears.

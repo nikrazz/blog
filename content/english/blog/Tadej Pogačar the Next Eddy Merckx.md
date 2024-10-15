@@ -7,6 +7,7 @@ categories: ["Pro Riders"]
 author: "Nikolai"
 tags: ["Eddy Merckx", "Tadej Pogačar", "Remco Evenepoel", "Tour de France"]
 draft: false
+url: "/blog/tadej-pogacar-the-next-eddy-merckx/"
 ---
 
 How many times have you heard an up and coming rider is the next Eddy Merckx? Me, I’ve lost count.
