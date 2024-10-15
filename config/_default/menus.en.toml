@@ -24,8 +24,8 @@ url = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "Blog"
+url = "blog"
 weight = 2
 
 [[footer]]

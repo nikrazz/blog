@@ -1,7 +1,7 @@
 ---
 title: "Belgian One Day Classics: Le Samyn"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Belgian One Day Classics: Le Samyn"
+description: "Le Samyn might not be the most famous race, but it’s packed with tough climbs, unpredictable moments, and a history of surprising winners. From cobbled sections to fast sprints, this Wallonie classic offers plenty of drama for those in the know."
 date: 2014-02-08T05:00:00Z
 categories: ["Classics"]
 author: "Nikolai"

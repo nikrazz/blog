@@ -1,7 +1,7 @@
 ---
 title: "A Case Against TT Bikes"
 meta_title: "A Case Against TT Bikes: "
-description: "this is meta description"
+description: "Read about the evolution of time trial bikes, from the 1980 Moscow Olympics to modern-day racing, and why these aero machines might be more dangerous than they’re worth."
 date: 2022-02-04T05:00:00Z
 categories: ["Cycling Gear"]
 author: "Nikolai"
@@ -9,7 +9,7 @@ tags: ["TT bikes"]
 draft: false
 ---
 
-Nineteen-eighty Moscow Olympic Games left a footprint in my memory. This is when aero helmets and skinsuits hit cycling scene’s prime time.
+Nineteen-eighty Moscow Olympic Games left a footprint in my memory. This is when aero helmets and skinsuits hit the cycling scene’s prime time.
 
 And funny bikes.
 
@@ -41,7 +41,7 @@ If you search for something like “[tt bike watts advantage](https://www.google
 
 I remember BikeRadar, I think (can’t find this article now), claimed the advantage a TT bike gives you is 60-70 watts at 40 km/h, that is, it takes 270-280 watts to ride a road bike at that speed and 220 watts to ride a TT bike.
 
-Translated into seconds, a TT bike gives you 9 seconds per kilometre advantage. This is 6 minutes in a 40 km time trial.
+Translated into seconds, a TT bike gives you 9 seconds per kilometer advantage. This is 6 minutes in a 40 km time trial.
 
 Insane.
 
@@ -69,7 +69,7 @@ It’s like someone sat with a pen and paper and asked himself: How do I make a 
 
 This is the list:
 
-1. Reduce control of the road bike to a minimum. Start with bike position. Move your body forward to load the front wheel and make it harder to manoeuvre.
+1. Reduce control of the road bike to a minimum. Start with bike position. Move your body forward to load the front wheel and make it harder to maneuver.
 2. Now that you’ve loaded the front with your body weight, finish the job and place your elbows next to each other on the handlebar. This way, you now have even less control over the bike and can only go straight or at best lean into a wide curve. When you need to turn, you’ll have to get your hands off the tri-bar and grab the bullhorns.
 3. Brakes ruin aerodynamics so when you design a TT frame, forget about brakes and focus on speed and aerodynamics. When you finish the frame design, tack on something somewhere that looks like brakes to pass the UCI definition of a road bike. Don’t worry if brakes don’t work properly, you don’t need brakes in a time trial.
 4. Finish the package with aero wheels. Put on the front whatever you can get away with to keep the rider on the road against wind gusts. Every time trial, pray that when a rider takes the elbows off the tri-bar to lean into a corner flying at 55 km/h, a sudden wind gust doesn’t blow him off the road.
@@ -98,13 +98,13 @@ Before a Grand Tour, mucking around on a TT bike is a major pain in the ass as y
 
 A TT bike is an extra bike a team can do without if they didn’t have to ride them a few times in a season. They take extra storage room on the road and at the team base.
 
-More bikes — more money for organisers to spend on transfers between stages inflating the cost of the race.
+More bikes — more money for organizers to spend on transfers between stages inflating the cost of the race.
 
 More bikes — more cars, trucks and buses to move them around and more fuel to burn. More cars and buses, you need more drivers and more fuel — more expenses.
 
 World Tour teams hire between 24 and 30 riders. This is another 40 or so extra bikes mechanics have to look after (some riders have 2 TT bikes, plus spares). You probably need to hire an extra mechanic to handle this extra work.
 
-To take advantage of a TT bike, you need to spend time in a wind tunnel adding more expenses. Some teams do not have money for wind tunnels and this lack of funds penalises them against teams with bigger sponsors and bigger budgets.
+To take advantage of a TT bike, you need to spend time in a wind tunnel adding more expenses. Some teams do not have money for wind tunnels and this lack of funds penalizes them against teams with bigger sponsors and bigger budgets.
 
 Marginal gains, hey.
 
@@ -114,10 +114,10 @@ Because everyone races on a TT bike in a time trial, no one gets the edge on the
 
 By design, TT bikes are dangerous to ride. No one, even a skilled, experienced rider, is safe from a crash, nasty injury or an end to a racing career because a TT bike is a dog to handle at high speed on the road.
 
-To take a full advantage TT bikes offer, you need to spend extra time to train on them. TT bikes add expenses to the teams and the organisers they can live without if UCI bans TT bikes from the sport.
+To take a full advantage TT bikes offer, you need to spend extra time to train on them. TT bikes add expenses to the teams and the organizers they can live without if UCI bans TT bikes from the sport.
 
 ## Ban Ban, I Hit the Ground
 
-The UCI will never ban TT bikes because bike manufactures sell probably 40% more bikes with this con. The riders will keep crashing. The Grand Tours will continue to lose major favourites because bikes manufactures want to sell more bikes.
+The UCI will never ban TT bikes because bike manufactures sell probably 40% more bikes with this con. The riders will keep crashing. The Grand Tours will continue to lose major favorites because bikes manufactures want to sell more bikes.
 
 It’s how it goes.

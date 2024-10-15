@@ -1,7 +1,7 @@
 ---
 title: "Chris Froome: A Disc Brake Skeptic"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Chris Froome: A Disc Brake Skeptic"
+description: "Chris Froome reignites the disc brake debate, questioning whether the technology is really ready for road cycling. A look at why disc brakes may be more about marketing than solving real problems, and how the cycling industry shapes what we ride."
 date: 2021-02-14T05:00:00Z
 categories: ["Cycling Gear"]
 author: "Nikolai"

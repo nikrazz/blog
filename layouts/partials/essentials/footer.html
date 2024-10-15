@@ -31,26 +31,20 @@
         </ul>
       </div>
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
-        <ul class="social-icons">
-          {{ range site.Data.social.main }}
-            <li>
-              <a
-                target="_blank"
-                aria-label="{{ .name }}"
-                rel="nofollow noopener"
-                href="{{ .link | safeURL }}">
-                <i class="{{ .icon }}"></i>
-              </a>
-            </li>
-          {{ end }}
-        </ul>
+        {{ if site.Params.navigation_button.enable }}
+          <a
+            href="{{ site.Params.navigation_button.link | relLangURL }}"
+            class="btn btn-outline-primary btn-sm hidden lg:inline-block">
+            {{ site.Params.navigation_button.label }}
+          </a>
+        {{ end }}
       </div>
     </div>
   </div>
   <div class="border-border dark:border-darkmode-border border-t py-7">
     <div class="text-light dark:text-darkmode-light container text-center">
-      <p>
-        {{ site.Params.copyright | markdownify }}
+      <p class="text-sm">
+        {{ replace .Site.Params.copyright "{year}" (now.Year | string) | safeHTML }}
       </p>
     </div>
   </div>
