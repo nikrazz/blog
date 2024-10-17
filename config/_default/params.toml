@@ -5,7 +5,7 @@ favicon = "images/favicon.png"
 logo = "images/logo.svg"
 logo_darkmode = "images/logo-darkmode.svg"
 # use `px` or `x` with logo_width, example: "100px".
-# Note: logo_width is not work with .svg file
+# Note: logo_width does not not work with .svg file
 logo_width = "160px"
 logo_height = "64px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
@@ -20,7 +20,7 @@ theme_default = "light" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "netlify"
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
