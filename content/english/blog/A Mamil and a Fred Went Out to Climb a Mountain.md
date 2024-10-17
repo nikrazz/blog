@@ -3,9 +3,10 @@ title: "A Mamil and a Fred Went Out to Climb a Mountain"
 meta_title: "A Mamil and a Fred Went Out to Climb a Mountain"
 description: "From satirical reviews of the UAE Tour to a quirky cycling-themed indie film, here's a commentary on pro racing’s absurdities and the hidden gems in cycling culture."
 date: 2020-02-25T05:00:00Z
-categories: ["Movies"]
+categories: ["Reviews"]
 author: "Nikolai"
-tags: ["mamil"]
+tags: ["Mamil", "Movies"]
+url: "blog/mamil-and-fred/"
 draft: false
 ---
 

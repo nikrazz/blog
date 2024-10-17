@@ -1,6 +1,6 @@
 ---
-title: "Did We Run Out of the Lions of Flanders?"
-meta_title: "Did We Run Out of the Lions of Flanders?"
+title: "Lions of Flanders No More?"
+meta_title: "No more Lions of Flanders on the horizon. Why is that?"
 description: "Why hasn’t anyone earned the title of The Lion of Flanders since Johan Museeuw? A look at what it takes to be crowned in Flanders, with some thoughts on Wout van Aert and Yves Lampaert as the next possible contenders."
 date: 2022-08-21T04:23:00Z
 categories: ["Classics", "Pro Riders"]

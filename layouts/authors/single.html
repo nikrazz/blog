@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <section class="section-sm pb-0">
+    <div class="container">
+      <div
+        class="row border-border dark:border-darkmode-border justify-center border-b pb-14">
+        <div class="lg:col-8 text-center">
+          {{ $image:= .Params.image }}
+          {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto" "Size" "150x150") }}          
+          <h1 class="h3 mt-10">{{ .Title }}</h1>
+          <div class="content mt-6">
+            {{ .Content }}
+          </div>          
+        </div>
+      </div>      
+    </div>
+  </section>
+{{ end }}

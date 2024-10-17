@@ -51,7 +51,7 @@ What else the talking heads don’t tell us?
 
 If we asked Froome, he would say they don’t tell you about, and I quote:
 
-> the constant rubbing, the overheating, the discs becoming a bit warped when descending for longer than five or 10 minutes of constant braking, you’re going to get one piston that fires more than another, you’re going to get these little issues…the pistons [don’t] quite retract the way they’re meant to all the time…quite often it’ll work on the stand and when the mechanic sorts it out, but once you get onto the road, it’s a different story.
+> the constant rubbing, the overheating, the discs becoming a bit warped when descending for longer than five or 10 minutes of constant braking, you’re going to get one piston that fires more than another, you’re going to get these little issues ... the pistons [don’t] quite retract the way they’re meant to all the time…quite often it’ll work on the stand and when the mechanic sorts it out, but once you get onto the road, it’s a different story.
 
 The brakes might work on the stand after a mechanic spends time on them. On the road, it’s a different story.
 
@@ -75,7 +75,10 @@ At the 2019 Tour de France all but one or two teams paraded on bikes with disc b
 
 Did anybody notice it? Don’t know. I did. My guess is, people who tell the talking heads what to say noticed this too because when the 2020 Tour arrived, everyone read the memo and played accordingly. No more options, disc brakes it is.
 
-Except for the INEOS Grenadiers team who 1) could afford to decide what equipment suits them best and, 2) practice marginal gains approach more than other teams.
+Except for the INEOS Grenadiers team who:
+
+1. could afford to decide what equipment suits them best and,
+2. practice marginal gains approach more than other teams.
 
 And so it went — a solution to a non-existent problem fueled by the need to ramp up corporate profits.
 

@@ -5,7 +5,8 @@ description: "Le Samyn might not be the most famous race, but it’s packed with
 date: 2014-02-08T05:00:00Z
 categories: ["Classics"]
 author: "Nikolai"
-tags: ["Le Samyn",]
+tags: ["Le Samyn"]
+url: "blog/le-samyn/"
 draft: false
 ---
 

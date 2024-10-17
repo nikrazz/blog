@@ -3,9 +3,10 @@ title: "Let’s Talk Doping, Shall We"
 meta_title: "Let’s Talk Doping, Shall We"
 description: "Reflecting on the myths of Soviet cycling dominance and doping, and how my writing journey began with RIDE Cycling Review. A look back at the stories I told and what I’ve come to realize about the sport."
 date: 2022-08-27T06:51:00Z
-categories: ["Doping"]
+categories: ["Soviet Cycling"]
 author: "Nikolai"
-tags: ["Soviet Cycling"]
+tags: ["Doping"]
+url: "blog/lets-talk-doping/"
 draft: false
 ---
 
