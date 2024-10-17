@@ -5,24 +5,24 @@
   <div class="container">
     <div class="row">
       <div class="md:col-10 lg:col-6 mx-auto">
-        <form {{ site.Params.form_processor }} method="POST" name="contact">
+        <form {{ site.Params.form_processor }} method="POST" name="{{ .Params.form_name }}">
           <div class="mb-6">
             <label for="name" class="form-label">
-              Full Name <span class="text-red-500">*</span>
+              Your name <span class="text-red-500">*</span>
             </label>
-            <input id="name" name="name" class="form-input border border-gray-300" placeholder="John Doe" type="text" />
+            <input id="name" name="name" class="form-input border border-gray-300" placeholder="Tell me your name, please" type="text" />
           </div>
           <div class="mb-6">
             <label for="email" class="form-label">
-              Working Mail <span class="text-red-500">*</span>
+              Your email <span class="text-red-500">*</span>
             </label>
-            <input id="email" name="email" class="form-input border border-gray-300" placeholder="john.doe@email.com" type="email" />
+            <input id="email" name="email" class="form-input border border-gray-300" placeholder="So that I can reply to you" type="email" />
           </div>
           <div class="mb-6">
             <label for="message" class="form-label">
-              Anything else? <span class="text-red-500">*</span>
+              Say it <span class="text-red-500">*</span>
             </label>
-            <textarea id="message" name="message" class="form-input border border-gray-300" placeholder="Message goes here..."
+            <textarea id="message" name="message" class="form-input border border-gray-300" placeholder="Tell me what you think"
               rows="4"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
