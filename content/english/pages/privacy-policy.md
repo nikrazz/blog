@@ -1,33 +1,32 @@
 ---
-title: "Privacy"
-# meta title
-meta_title: ""
-# meta description
-description: "This is meta description"
-# save as draft
+title: "Privacy Policy"
+meta_title: "Privacy policy for nikolai.com.au"
+description: "Please read our Privacy Policy before using nikolai.com.au website."
 draft: false
 ---
 
-#### Responsibility of Contributors
+Your privacy is important to me. This Privacy Policy outlines how I handle your personal information in compliance with Australian privacy laws.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+## Information This Website Collects
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+The website does not use any tracking tools, such as cookies or analytics services, to monitor your activities on this website. The only information being collected is what you voluntarily provide through the <a href="/contact/">contact form</a>.
 
-#### Gathering of Personal Information
+## Use of Your Information
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+When you use the contact form, it will collect your name, email address, and any message you send. This information is solely used to respond to your inquiries. I do not share your personal information with third parties.
 
-#### Protection of Personal- Information
+## Data Security
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+I take the security of your information seriously and use reasonable measures to protect it. However, please note that no method of electronic transmission or storage is 100% secure.
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+## Your Rights
 
-#### Privacy Policy Changes
+You have the right to request access to or correction of the personal information I hold about you. If you wish to do so, please contact me through the <a href="/contact/">contact form</a> provided on the website.
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+## Changes to This Policy
+
+I may update this Privacy Policy from time to time to reflect changes in the operation of this website or legal requirements. Any changes will be posted on this page.
+
+## Contact
+
+If you have any questions about this Privacy Policy, please contact me by using the <a href="/contact/">contact form</a>.

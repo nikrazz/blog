@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{ partial "page-header" . }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row gx-5">
+      <div class="mb-8">
+        <p class="text-center mb-4">{{ .Params.intro }}</p>
+        <h2 class="text-center mb-8">{{ .Params.other_posts }}</h2>
+      </div>
+      <!-- Latest 3 blog posts in cards (3-column layout) -->
+      <div class="lg:col-12">
+        <div class="row">
+          {{ $latestPosts := first 3 (shuffle (where .Page.Site.Pages.ByDate.Reverse "Section" "blog")) }}
+            {{ range $latestPosts }}
+                <div class="md:col-4 mb-14">
+                    <div class="bg-body dark:bg-darkmode-body p-6 rounded-lg">
+                        <h4 class="h5 font-bold mb-3">
+                            <a href="{{ .RelPermalink }}">
+                                {{ .Title }}
+                            </a>
+                        </h4>
+                        <ul class="mb-4">
+                            <li class="mr-4 inline-block">
+                                <i class="fa-regular fa-calendar-days mr-2"></i>
+                                {{ time.Format ":date_long" .PublishDate }}
+                            </li>
+                        </ul>
+                        {{ if .Params.description }}
+                            <p>{{ .Params.description }}</p>
+                        {{ else }}
+                            {{ .Summary }}
+                        {{ end }}
+                        <a class="btn btn-outline-primary btn-sm mt-6" href="{{ .RelPermalink }}">
+                            {{ T "full_post" }}
+                        </a>
+                    </div>
+                </div>
+            {{ else }}
+                <p>No blog posts available.</p>
+            {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

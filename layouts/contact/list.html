@@ -5,7 +5,8 @@
   <div class="container">
     <div class="row">
       <div class="md:col-10 lg:col-6 mx-auto">
-        <form {{ site.Params.form_processor }} method="POST" name="{{ .Params.form_name }}">
+        <p class="text-center mb-8">{{ .Params.form_cta }}</p>
+        <form {{ site.Params.form_processor }} method="POST" name="{{ .Params.form_name }}" action="/thank-you/">
           <div class="mb-6">
             <label for="name" class="form-label">
               Your name <span class="text-red-500">*</span>
@@ -25,7 +26,7 @@
             <textarea id="message" name="message" class="form-input border border-gray-300" placeholder="Tell me what you think"
               rows="4"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Send</button>
         </form>
       </div>
     </div>
