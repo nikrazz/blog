@@ -17,7 +17,7 @@
 
 
 <!-- site verifications -->
-{{ partialCached "site-verifications.html" . }}
+{{/*  {{ partialCached "site-verifications.html" . }}  */}}
 
 
 <!-- opengraph and twitter card -->
@@ -29,13 +29,13 @@
 
 
 <!-- google analytics -->
-{{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
+{{/*  {{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
   {{ template "_internal/google_analytics.html" . }}
-{{ end }}
+{{ end }}  */}}
 
 
 <!-- google tag manager -->
-{{ partialCached "gtm.html" . }}
+{{/*  {{ partialCached "gtm.html" . }}  */}}
 
 
 <!-- search index -->
