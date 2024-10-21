@@ -6,7 +6,7 @@
     <div class="row">
       <div class="md:col-10 lg:col-6 mx-auto">
         <p class="text-center mb-8">{{ .Params.form_cta }}</p>
-        <form {{ site.Params.form_processor }} method="POST" name="{{ .Params.form_name }}" action="/thank-you/">
+        <form {{ site.Params.form_processor }} method="post" name="{{ .Params.form_name }}" action="/thank-you/">
           <div class="mb-6">
             <label for="name" class="form-label">
               Your name <span class="text-red-500">*</span>
