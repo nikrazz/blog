@@ -7,7 +7,7 @@
         {{ $latestPost := index .Site.RegularPages.ByDate.Reverse 0 }}
         {{ with $latestPost }}
           <article>
-            <h1 class="h2 mb-4">
+            <h1 class="mb-4">
               {{ .Title }}
             </h1>
             <ul class="mb-4">

@@ -6,7 +6,7 @@
         <div class="lg:col-8 text-center">
           {{ $image:= .Params.image }}
           {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto" "Size" "150x150") }}          
-          <h1 class="h3 mt-10">{{ .Title }}</h1>
+          <h1 class="mt-10">{{ .Title }}</h1>
           <div class="content mt-6">
             {{ .Content }}
           </div>          
