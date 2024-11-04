@@ -38,7 +38,7 @@ Not in relation to the UAE Tour, more like: by the way, UCI is a dictatorship ta
 
 ## The Climb
 
-If you have never heard of *The Climb*, [Michael Covino](https://www.focusfeatures.com/kicks/bio/mikecovino_bio)’s 2019 feature film, don’t worry — me neither.
+If you have never heard of *The Climb*, [Michael Covino](https://www.vulture.com/2020/11/the-climb-guys-meet-michael-angelo-covino-and-kyle-marvin.html)’s 2019 feature film, don’t worry — me neither.
 
 The film appeared in 2018 at Sundance Festival as an 8-minute short. People with cash (Sony Pictures) and taste (Trafalgar Releasing) liked it so much, they bought it and paid Michael to make a feature-length film.
 
