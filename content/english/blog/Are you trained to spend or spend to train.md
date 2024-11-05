@@ -1,7 +1,7 @@
 ---
 title: "Are you trained to spend or spend to train?"
-meta_title: "Are you trained to spend or spend to train?"
-description: "Read about the evolution of time trial bikes, from the 1980 Moscow Olympics to modern-day racing, and why these aero machines might be more dangerous than they’re worth."
+meta_title: "Is High-End Aero Gear Really the Key to Cycling Performance?"
+description: "Does spending on the latest aero gear truly make you a faster cyclist? A skeptical look at marketing claims, ‘stiffness-to-weight’ ratios, and the real journey to improvement. Discover why the pursuit of authentic cycling performance often goes beyond the equipment."
 date: 2014-08-04T05:00:00Z
 categories: ["Cycling Gear"]
 author: "Nikolai"
