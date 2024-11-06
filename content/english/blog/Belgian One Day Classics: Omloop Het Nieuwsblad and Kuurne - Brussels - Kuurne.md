@@ -2,7 +2,7 @@
 title: "Belgian One Day Classics: Omloop Het Nieuwsblad & Kuurne - Brussels - Kuurne"
 meta_title: "Guide to Belgian Spring Classics: Omloop Het Nieuwsblad & Kuurne-Brussels-Kuurne"
 description: "Get ready for the Belgian spring classics! Discover the history, challenges, and key facts about Omloop Het Nieuwsblad and Kuurne-Brussels-Kuurne, the first two races that kick off the European pro cycling season. Learn about past winners, legendary climbs, and what makes these Flandrian races iconic."
-date: 2014-02-06T05:00:00Z
+date: 2014-02-02T05:00:00Z
 categories: ["Classics"]
 author: "Nikolai"
 tags: ["Omloop Het Nieuwsblad", "Kuurne - Brussels - Kuurne"]
