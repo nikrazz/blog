@@ -2,7 +2,7 @@
 title: "Mirror, Mirror On the Wall"
 meta_title: "Who is the greatest rider of all time?"
 description: "Why comparing Sergei Soukhoruchenkov to pro cycling stars like Eddy Merckx and Bernard Hinault misses the mark. A look at the unique challenges and differences of amateur cycling behind the Iron Curtain."
-date: 2020-05-26T16:53:00Z
+date: 2014-02-10T16:53:00Z
 categories: ["Soviet Cycling"]
 author: "Nikolai"
 tags: ["Sergei Soukhoruchenkov"]
