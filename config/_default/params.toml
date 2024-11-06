@@ -27,7 +27,7 @@ form_processor = "netlify"
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "&copy; 2007-{year} Nikolai Razouvaev"
+copyright = "&copy; 2014-{year} Nikolai Razouvaev"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
