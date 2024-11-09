@@ -10,7 +10,7 @@ url: "blog/le-samyn/"
 draft: false
 ---
 
-After the Flandrian double shot of Omloop Het Nieuwsblad and Kuurne – Brussels – Kuurne, we move to the French speaking Wallonie to have a quick look at Le Samyn.
+After the Flandrian double shot of [Omloop Het Nieuwsblad and Kuurne – Brussels – Kuurne](/blog/omloop-het-nieuwsblad-2014/), we move to the French speaking Wallonie to have a quick look at Le Samyn.
 
 Race day: 5 March, 2014.
 
