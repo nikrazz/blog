@@ -3,7 +3,7 @@ title: "When a Russian Medal Isn’t Just a Medal: How Icarus Turned Doping into
 meta_title: "How Icarus Fuels the Doping Stereotype Against Russian Athletes"
 description: "Icarus presents Russian athletes as natural-born dopers, feeding a familiar narrative that frames doping as a national flaw rather than a global issue. But does the film’s story hold up, or does it merely reinforce stereotypes about where the 'bad guys' come from?"
 date: 2018-02-28T05:00:00Z
-categories: ["Reviews"]
+categories: ["Reviews", "Opinion"]
 author: "Nikolai"
 tags: ["Movies", "Doping"]
 url: "blog/icarus-review/"

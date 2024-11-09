@@ -3,7 +3,7 @@ title: "Are you trained to spend or spend to train?"
 meta_title: "Is High-End Aero Gear Really the Key to Cycling Performance?"
 description: "Does spending on the latest aero gear truly make you a faster cyclist? A skeptical look at marketing claims, ‘stiffness-to-weight’ ratios, and the real journey to improvement. Discover why the pursuit of authentic cycling performance often goes beyond the equipment."
 date: 2014-03-04T05:00:00Z
-categories: ["Cycling Gear"]
+categories: ["Cycling Gear", "Opinion"]
 author: "Nikolai"
 tags: ["TT bikes", "Aero Wheels"]
 draft: false

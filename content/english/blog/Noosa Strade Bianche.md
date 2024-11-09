@@ -3,7 +3,7 @@ title: "Noosa Strade Bianche"
 meta_title: "The story of my Noosa Strade Bianche Gran Fondo ride."
 description: "Riding the Noosa Strade Bianche: gravel climbs, dusty roads, and a crew of riders from all over the world. A day filled with old-school cycling, tough climbs, punctures, and a well-earned cold beer at the finish."
 date: 2017-08-20T07:32:00Z
-categories: ["Gran Fondo"]
+categories: ["Reviews"]
 author: "Nikolai"
 tags: ["Noosa Strade Bianche"]
 draft: false
