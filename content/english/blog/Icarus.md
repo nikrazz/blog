@@ -46,7 +46,7 @@ I bail out from the road race and ride to the police station. I don’t defect. 
 
 Fast forward 33 years, to February 2018. Russians in South Korea compete as the Olympic Athletes from Russia. It’s the Newspeak if you didn’t know.
 
-I’m watching a documentary film called Icarus. A bunch of people have asked me if I have watched it. No, I’d tell them, I haven’t. Oh, they’d say, you should. It’s about systematic doping in Russia. State-sponsored, and all that.
+I’m watching a documentary film called Icarus. A bunch of people have asked me if I have watched it. No, I’d tell them, I haven’t. Oh, they’d say, you should. It’s about systematic [doping](/blog/lets-talk-doping/) in Russia. State-sponsored, and all that.
 
 {{< youtube id=qXoRdSTrR-4 >}}
 
