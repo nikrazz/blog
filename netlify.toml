@@ -5,3 +5,8 @@ command = "yarn project-setup; yarn build"
 [build.environment]
 HUGO_VERSION = "0.136.5"
 GO_VERSION = "1.23.2"
+
+[[redirects]]
+from = '/js/goat.js'
+to = 'https://gc.zgo.at/count.js'
+status = 404
