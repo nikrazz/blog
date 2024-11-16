@@ -9,4 +9,5 @@ GO_VERSION = "1.23.2"
 [[redirects]]
 from = '/js/goat.js'
 to = 'https://gc.zgo.at/count.js'
-status = 404
+status = 200
+force = true
