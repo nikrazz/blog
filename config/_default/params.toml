@@ -1,48 +1,30 @@
-#################### default parameters ############################
-# favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon.png"
-# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "images/logo.svg"
 logo_darkmode = "images/logo-darkmode.svg"
-# use `px` or `x` with logo_width, example: "100px".
-# Note: logo_width does not not work with .svg file
 logo_width = "160px"
 logo_height = "64px"
-# if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
-# logo text will only show when logo is missing.
-logo_text = "Nikolai"
-# navbar fixed to top
-navbar_fixed = true
-# theme-mode
+logo_text = "Nikolai Razouvaev"
 theme_switcher = true
 theme_default = "light" # available options [light/dark/system]
-# Main Sections
 mainSections = ["blog"]
-# form processor
 form_processor = "netlify"
-# google tag manager, see https://developers.google.com/tag-manager/
-# google_tag_manager = "" # example: G-XXXXXXXXXX
-# google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
+form_action = "/thank-you/"
+# google_tag_manager = ""
+# google_adsense = ""
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
-# copyright
 copyright = "&copy; 2014-{year} Nikolai Razouvaev"
 
-# Preloader
-# preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
 enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
-# Navigation button
 [navigation_button]
 enable = true
 label = "contact me"
 link = "contact"
 
-# search
-# search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
 enable = true
 primary_color = "#121212"
@@ -52,15 +34,12 @@ show_description = true
 show_tags = true
 show_categories = true
 
-# announcement
-# announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
 enable = false
 expire_days = 7
-content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
+content = ""
 
-# seo meta data for OpenGraph / Twitter Card
-# seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
+# meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Road Cycling", "Blog"]
 description = "Nikolai Razouvaev's personal blog."
@@ -68,18 +47,9 @@ author = "Nikolai Razouvaev"
 # twitter = "nik"
 # image = "images/og-image.png"
 
-
-# site verifications
-# verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
 # [site_verification]
-# google = ""   # Your verification code
-# bing = ""     # Your verification code
-# baidu = ""    # Your verification code
-# facebook = "" # Your verification code
-# mastodon = "" # Your verification code
+# google = ""
 
-# cookies
-# cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 # [cookies]
 # enable = false
 # expire_days = 60
@@ -90,12 +60,9 @@ author = "Nikolai Razouvaev"
 [mermaid]
 js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
 
-######################## sidebar widgets #########################
 [widgets]
 sidebar = ["categories", "tags"]
 
-
-# google map
 # [google_map]
 # enable = false
 # map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
@@ -103,10 +70,7 @@ sidebar = ["categories", "tags"]
 # map_longitude = "-0.1622023"
 # map_marker = "images/marker.png"
 
-
-# Subscription
 [subscription]
 enable = false
-# mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
