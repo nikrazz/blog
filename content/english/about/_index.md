@@ -2,7 +2,7 @@
 title: "Hey, I’m Nikolai"
 meta_title: "Nikolai Razouvaev's Blog"
 description: "Nikolai, a former junior world champion, writes about road cycling."
-image: "/images/Nikolai Razouvaev.png"
+image: "images/Nikolai_Razouvaev.png"
 draft: false
 ---
 
