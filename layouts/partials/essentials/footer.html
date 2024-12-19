@@ -45,6 +45,7 @@
     <div class="text-light dark:text-darkmode-light container text-center">
       <p class="text-sm">
         {{ replace .Site.Params.copyright "{year}" (now.Year | string) | safeHTML }}
+        | <a rel="me" href="https://mastodon.social/@nikolai">Mastodon</a>
       </p>
     </div>
   </div>
