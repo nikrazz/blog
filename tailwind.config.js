@@ -67,7 +67,7 @@ module.exports = {
         },
       },
       fontSize: {
-        base: font_base + "px",
+        base: '1.125rem',
         "base-sm": font_base * 0.8 + "px",
         h1: h1 + "rem",
         "h1-sm": h1 * 0.9 + "rem",
