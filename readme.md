@@ -110,8 +110,9 @@ npm run preview         # production-mode local server
 npm run check:postcss   # regression check with project-only Node reads
 ```
 
-Use npm and retain `package-lock.json` and `go.sum` in version control. The existing
-npm dependency versions are preserved. Do not add a Yarn lockfile. Generated
+Use npm and retain `package-lock.json` and `go.sum` in version control. Compatible
+security fixes are locked; see [the audit review](docs/dependency-audit.md).
+Do not add a Yarn lockfile. Generated
 `public/`, `resources/`, `hugo_stats.json` and `node_modules/` remain ignored.
 Tailwind 3 reads Hugo's generated statistics; keep build statistics, cachebusters
 and the deferred production CSS processing enabled.
@@ -137,6 +138,40 @@ phase used `npm install`. Confirm the dashboard uses the repository root as its
 base directory and has no conflicting context, build-command, tool-version,
 `NODE_ENV`, `NPM_FLAGS`, `NODE_OPTIONS` or `HUGO_SECURITY_*` overrides. Local
 verification does not verify a Netlify deployment.
+
+Before production, check these settings in Netlify:
+
+- Repository/base directory: this repository's root; publish directory: `public`.
+- Build command: `npm ci --include=dev && npm run build`. Check production,
+  branch-deploy and deploy-preview contexts for conflicting overrides.
+- Tool versions: Hugo Extended 0.165.0, Node 24.21.0, npm 11.19.0, Go 1.24.1.
+  Keep development dependencies available during the build; check `NODE_ENV`,
+  `NPM_FLAGS`, `NODE_OPTIONS` and `HUGO_SECURITY_*` overrides.
+- After explicitly authorizing a push, use a non-production branch and open a
+  pull request with Deploy Previews enabled. Confirm the preview's build log
+  uses these versions and completes the locked install and Hugo build.
+- On the preview URL, check home, a post, `/blog/page/2/`, `/elements/`, search,
+  RSS, the manifest and both fingerprinted CSS files. At 320–430px check the
+  mobile menu and no horizontal scrolling; repeatedly open, navigate and close
+  gallery images. Confirm canonical/SEO URLs still use `www.nikolai.com.au`.
+
+For an upload-only draft preview, once a working Netlify CLI is authenticated:
+
+```bash
+npm ci --include=dev && npm run build
+netlify deploy --dir=public --site=YOUR_SITE_ID
+```
+
+Omitting `--prod` creates a draft; this checks uploaded output, not Netlify's
+build environment. No remote preview was created during this repair. Local
+dashboard inspection was blocked by an unreadable, root-owned Netlify CLI
+configuration; use the dashboard to review settings without changing its file
+permissions just to run these checks.
+
+The image shortcode override in `layouts/shortcodes/image.html` comes from the
+pinned `images` module at `v0.0.0-20240925042433-d2b5d05977e8`. It removes that
+module's redundant window-load lightbox initializer. The deferred plugin bundle
+loads GLightbox and then initializes it once through `js/gallery-slider.js`.
 
 ### 🎬 Still Confused? Watch a Quick Video
 

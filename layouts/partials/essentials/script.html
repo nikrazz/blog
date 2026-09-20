@@ -35,9 +35,9 @@
   src="{{ $scripts.RelPermalink }}"></script>
 
 {{/* scripts lazy */}}
+{{/* Defer until the DOM is parsed; preserve plugin/initializer order in the bundle. */}}
 <script
   defer
-  async
   crossorigin="anonymous"
   integrity="{{ $scriptsLazy.Data.Integrity }}"
   src="{{ $scriptsLazy.RelPermalink }}"></script>

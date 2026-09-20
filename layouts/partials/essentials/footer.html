@@ -3,40 +3,31 @@
     <div class="row items-center py-10">
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
         <!-- navbar brand/logo -->
-        <a
-          class="navbar-brand inline-block"
-          href="{{ site.Home.RelPermalink }}">
+        <a class="navbar-brand inline-block" href="{{ site.Home.RelPermalink }}">
           {{ partial "logo" }}
         </a>
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
         <ul>
           {{ range site.Menus.footer }}
-            <li class="m-3 inline-block">
-              <a
-                {{ if findRE `^http` .URL }}
-                  target="_blank" rel="noopener"
-                {{ end }}
-                href="{{ if findRE `^#` .URL }}
+          <li class="m-3 inline-block">
+            <a {{ if findRE `^http` .URL }} target="_blank" rel="noopener" {{ end }} href="{{ if findRE `^#` .URL }}
                   {{ if not $.IsHome }}
                     {{ site.Home.RelPermalink }}
                   {{ end }}{{ .URL }}
                 {{ else }}
                   {{ .URL | relLangURL }}
-                {{ end }}"
-                >{{ .Name }}</a
-              >
-            </li>
+                {{ end }}">{{ .Name }}</a>
+          </li>
           {{ end }}
         </ul>
       </div>
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
         {{ if site.Params.navigation_button.enable }}
-          <a
-            href="{{ site.Params.navigation_button.link | relLangURL }}"
-            class="btn btn-outline-primary btn-sm hidden lg:inline-block">
-            {{ site.Params.navigation_button.label }}
-          </a>
+        <a href="{{ site.Params.navigation_button.link | relLangURL }}"
+          class="btn btn-outline-primary btn-sm hidden lg:inline-block">
+          {{ site.Params.navigation_button.label }}
+        </a>
         {{ end }}
       </div>
     </div>
@@ -45,8 +36,6 @@
     <div class="text-light dark:text-darkmode-light container text-center">
       <p class="text-sm">
         {{ replace .Site.Params.copyright "{year}" (now.Year | string) | safeHTML }}
-        | <a rel="me" href="https://mastodon.social/@nikolai">Mastodon</a>
-      </p>
     </div>
   </div>
 </footer>
