@@ -6,7 +6,7 @@ date: 2023-11-30T05:00:00Z
 categories: ["Race Craft"]
 author: "Nikolai"
 tags: ["Sun Tzu"]
-draft: false
+draft: true
 ---
 
 ## Leveraging Ancient Wisdom in Modern Cycling

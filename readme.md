@@ -9,8 +9,8 @@
 </h2>
 
 <p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.126.0&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.165.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.165.0&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
@@ -83,39 +83,60 @@ We have included almost everything you need to start your Hugo project. Let's se
 
 ## 🚀 Getting Started
 
-First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
+This repository is an initialized cycling blog with a checked-in Hugoplate theme.
+Do not run `project-setup`, `theme-setup` or theme/module update scripts as part of
+normal installation or builds.
 
-### ⚙️ Prerequisites
+### Toolchain
 
-To start using this template, you need to have some prerequisites installed on your machine.
+Use Hugo **Extended 0.165.0**, Node **24.21.0** (LTS), npm **11.19.0** and
+Go **1.24.1**, matching `netlify.toml`. `.nvmrc` selects the Node version;
+`config/_default/module.toml` requires Hugo Extended 0.165.0 or newer. Keep the
+exact tested Hugo version for reproducible builds. Go's module language minimum
+remains 1.21; no module upgrades are required.
 
-- [Hugo Extended v0.124+](https://gohugo.io/installation/)
-- [Node v20+](https://nodejs.org/en/download/)
-- [Go v1.22+](https://go.dev/doc/install)
+On macOS, if you use nvm, run `nvm install` and `nvm use` in this directory.
+Check `hugo version`, `node --version`, `npm --version` and `go version` before
+building. The Hugo version must include `extended`.
 
-### 👉 Project Setup
-
-We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
-
-```bash
-npm run project-setup
-```
-
-### 👉 Install Dependencies
-
-Install all the dependencies using the following command.
+### Install and run
 
 ```bash
-npm install
+npm ci --include=dev
+hugo                    # plain production build
+npm run build           # production build with minification and cleanup
+npm run dev             # development server: http://localhost:1313
+npm run preview         # production-mode local server
+npm run check:postcss   # regression check with project-only Node reads
 ```
 
-### 👉 Development Command
+Use npm and retain `package-lock.json` and `go.sum` in version control. The existing
+npm dependency versions are preserved. Do not add a Yarn lockfile. Generated
+`public/`, `resources/`, `hugo_stats.json` and `node_modules/` remain ignored.
+Tailwind 3 reads Hugo's generated statistics; keep build statistics, cachebusters
+and the deferred production CSS processing enabled.
 
-Start the development server using the following command.
+### PostCSS and Netlify
 
-```bash
-npm run dev
-```
+Autoprefixer explicitly uses Browserslist's `defaults` policy (`> 0.5%`,
+`last 2 versions`, `Firefox ESR`, `not dead`). `stats: {}` prevents its separate
+custom-usage-statistics search. Together these avoid ancestor filesystem lookups
+without widening or disabling Hugo's Node permissions. See the
+[Browserslist defaults](https://github.com/browserslist/browserslist#queries) and
+[Hugo security settings](https://gohugo.io/configuration/security/).
+
+`layouts/_default/index.webmanifest` overrides the pinned PWA module's template
+only to migrate `site.LanguageCode` to `site.Language.Locale`. Its source is
+`github.com/gethugothemes/hugo-modules/pwa` at
+`v0.0.0-20240925042433-d2b5d05977e8`; keep this override until an intentional module
+update includes the migration.
+
+Netlify publishes `public` using `npm ci --include=dev && npm run build`.
+The explicit clean install enforces the lockfile even if Netlify's dependency
+phase used `npm install`. Confirm the dashboard uses the repository root as its
+base directory and has no conflicting context, build-command, tool-version,
+`NODE_ENV`, `NPM_FLAGS`, `NODE_OPTIONS` or `HUGO_SECURITY_*` overrides. Local
+verification does not verify a Netlify deployment.
 
 ### 🎬 Still Confused? Watch a Quick Video
 
@@ -203,7 +224,7 @@ We have provided 5 different deploy platform configurations with this template, 
 
 And if you want to Host some other hosting platforms. then you can build your project, and you will get a `public` folder. that you can copy and paste on your hosting platform.
 
-> **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
+> The canonical `baseURL` is already configured as `https://www.nikolai.com.au/` in `hugo.toml`.
 
 ---
 
